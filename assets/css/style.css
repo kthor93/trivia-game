@@ -6,10 +6,46 @@ html, body {
 
 body {
     background-color: #eee;
+    font-family: 'Nunito', sans-serif;
 }
 
 .container {
     background-color: #fff;
-    min-height: 600px;
+    min-height: 680px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+
+#dynamic-content {
+    margin: 80px;
+}
+
+#title {
+    margin-bottom: 180px;
+}
+
+#question {
+    margin-bottom: 80px;
+}
+
+#start-game, .choice-buttons {
+    border-radius: 30px;
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    min-width: 400px;
+    font-size: 20px;
+    background-color: #6600ff;
+    color: #fff;
+    border: none;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
 }
